@@ -61,9 +61,9 @@
     var W = 0, H = 0, t = 0;
     var mouse = { x: 0.5, amp: 1 };
     var waves = [
-      { color: "rgba(210,154,75,0.55)",  freq: 0.7,  speed: 0.55, yBase: 0.52, yAmp: 64,  width: 2 },
-      { color: "rgba(232,228,220,0.22)", freq: 1.3,  speed: -0.32, yBase: 0.54, yAmp: 40, width: 1 },
-      { color: "rgba(210,154,75,0.18)",  freq: 2.1,  speed: 0.85, yBase: 0.5,  yAmp: 22, width: 1 }
+      { color: "rgba(210,154,75,0.8)",   freq: 0.7,  speed: 0.55, yBase: 0.42, yAmp: 74,  width: 2 },
+      { color: "rgba(232,228,220,0.35)", freq: 1.3,  speed: -0.32, yBase: 0.46, yAmp: 46, width: 1 },
+      { color: "rgba(210,154,75,0.3)",   freq: 2.1,  speed: 0.85, yBase: 0.4,  yAmp: 26, width: 1 }
     ];
     function resize() {
       var dpr = Math.min(window.devicePixelRatio || 1, 2);

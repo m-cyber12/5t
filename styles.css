@@ -143,6 +143,12 @@ body::after{
 }
 .nav-cta:hover{border-color:var(--copper);color:var(--copper-hi)}
 @media(max-width:760px){.nav-links{display:none}}
+@media(max-width:520px){
+  .nav{padding:0 16px}
+  .nav-brand{font-size:.62rem;letter-spacing:.12em}
+  .nav-brand-tag{font-size:.5rem;margin-left:.3em}
+  .nav-cta{padding:.45em 1em;font-size:.6rem;letter-spacing:.1em}
+}
 
 /* ============ HERO ============ */
 .hero{position:relative;min-height:100vh;display:flex;align-items:flex-end;overflow:hidden}
@@ -152,10 +158,10 @@ body::after{
 }
 .hero-veil{
   position:absolute;inset:0;pointer-events:none;
-  background:
+    background:
     radial-gradient(120% 90% at 50% 110%, rgba(11,10,8,.0) 30%, rgba(11,10,8,.78) 78%),
-    linear-gradient(180deg, rgba(11,10,8,.9) 0%, rgba(11,10,8,.25) 30%, rgba(11,10,8,0) 55%),
-    linear-gradient(180deg, rgba(11,10,8,0) 60%, rgba(11,10,8,.85) 100%);
+    linear-gradient(180deg, rgba(11,10,8,.9) 0%, rgba(11,10,8,.2) 26%, rgba(11,10,8,0) 50%),
+    linear-gradient(180deg, rgba(11,10,8,0) 62%, rgba(11,10,8,.85) 100%);
 }
 .hero-frame{
   position:relative;z-index:2;width:100%;
